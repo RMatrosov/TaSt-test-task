@@ -1,0 +1,30 @@
+.App {
+  background: radial-gradient(circle, #8dd5ff 0%, #268ff8 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  src: url(fonts/Roboto-Bold.ttf);
+
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url(fonts/Roboto-Medium.ttf);
+
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(fonts/Roboto-Regular.ttf);
+
+}

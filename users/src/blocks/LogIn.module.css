@@ -1,0 +1,115 @@
+.log__in {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.log__in_wrapper {
+    max-width: 358px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FFF;
+    border-radius: 16px;
+    box-shadow: 0 10px 62px 10px rgb(47 128 214);
+    padding: 35px;
+}
+
+.log__in_title {
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    color: #2789e6;
+    transition: 0.2s ease-in;
+    margin: 0;
+    padding-top: 25px;
+    padding-bottom: 45px;
+}
+
+.log__in_input {
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    width: 290px;
+    color: #110f0f;
+    outline: none;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: 10px;
+    margin-bottom: 40px;
+}
+
+.log__in_error {
+    color: #FF0000;
+    margin-bottom: 30px;
+    width: 300px;
+    margin-top: 0;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    position: absolute;
+    top: 400px;
+}
+
+.second {
+    top: 480px;
+}
+
+
+.log__in_button {
+    width: 290px;
+    height: 50px;
+    left: 461px;
+    top: 558px;
+    border-radius: 2px;
+    font-family: Roboto, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    margin-top: 20px;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff
+}
+
+.log__in_button:hover {
+    opacity: 0.85;
+}
+
+input::-webkit-input-placeholder {
+    color: #110f0f;
+}
+
+input:-moz-placeholder {
+    color: #110f0f;
+}
+
+input::-moz-placeholder {
+    color: #110f0f;
+}
+
+input:-ms-input-placeholder {
+    color: #110f0f;
+}
+
+@media (max-width: 390px) {
+    .log__in_input {
+        width: 260px;
+    }
+
+    .log__in_button {
+        width: 260px;
+        font-size: 16px;
+        line-height: 19px;
+    }
+}
+
+

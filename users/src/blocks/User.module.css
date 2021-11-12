@@ -1,0 +1,72 @@
+.user {
+    width: calc(100% - 200px);
+    border-radius: 5px;
+    display: flex;
+    border-bottom: 2px solid #dee2e6;
+    padding: 20px 0;
+}
+
+.user__img {
+
+}
+
+.user__info {
+    display: flex;
+    width: 100%;
+}
+
+
+.user__text {
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.button__group {
+    width: 20%;
+    display: flex;
+    justify-content: center;
+
+}
+
+.user__btn {
+    color: #007bff;
+    border: none;
+    background: none;
+    font-family: Roboto, sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    cursor: pointer;
+}
+
+.user__btn_link {
+    width: 100%;
+}
+
+.delete {
+    background: #e70a0a;
+}
+
+
+.id {
+    width: 10%;
+}
+
+.createdAt {
+    width: 15%;
+}
+
+.name {
+    width: 20%;
+}
+
+.about {
+    width: 20%;
+}
+
+.email {
+    width: 20%;
+}
